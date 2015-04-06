@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'gulp-filter' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'gulp-filter', null ]
+6 verbose cache add name=undefined spec="gulp-filter" args=["gulp-filter",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp-filter',
+7 verbose parsed url   path: 'gulp-filter',
+7 verbose parsed url   href: 'gulp-filter' }
+8 silly lockFile b666384f-gulp-filter gulp-filter
+9 verbose lock gulp-filter /home/lenin/.npm/b666384f-gulp-filter.lock
+10 silly lockFile b666384f-gulp-filter gulp-filter
+11 silly lockFile b666384f-gulp-filter gulp-filter
+12 verbose addNamed [ 'gulp-filter', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile b58afe29-gulp-filter gulp-filter@
+15 verbose lock gulp-filter@ /home/lenin/.npm/b58afe29-gulp-filter.lock
+16 silly addNameRange { name: 'gulp-filter', range: '*', hasData: false }
+17 verbose request where is /gulp-filter
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id dcff04a386ce2f6b
+20 verbose url raw /gulp-filter
+21 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-filter' ]
+22 verbose url resolved https://registry.npmjs.org/gulp-filter
+23 verbose request where is https://registry.npmjs.org/gulp-filter
+24 info trying registry request attempt 1 at 19:28:35
+25 http GET https://registry.npmjs.org/gulp-filter
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+27 info trying registry request attempt 2 at 19:29:05
+28 http GET https://registry.npmjs.org/gulp-filter
+29 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+30 info trying registry request attempt 3 at 19:30:25
+31 http GET https://registry.npmjs.org/gulp-filter
+32 silly lockFile b58afe29-gulp-filter gulp-filter@
+33 silly lockFile b58afe29-gulp-filter gulp-filter@
+34 error network getaddrinfo ENOTFOUND
+34 error network This is most likely not a problem with npm itself
+34 error network and is related to network connectivity.
+34 error network In most cases you are behind a proxy or have bad network settings.
+34 error network
+34 error network If you are behind a proxy, please make sure that the
+34 error network 'proxy' config is set properly.  See: 'npm help config'
+35 error System Linux 3.13.0-48-generic
+36 error command "/usr/bin/node" "/usr/bin/npm" "install" "--global" "gulp-filter"
+37 error cwd /home/lenin/dev/leninhasda.net
+38 error node -v v0.10.37
+39 error npm -v 1.4.28
+40 error syscall getaddrinfo
+41 error code ENOTFOUND
+42 error errno ENOTFOUND
+43 verbose exit [ 1, true ]
