@@ -1,10 +1,32 @@
-html, body {
-	font-size: 16px;
-	color: #666;
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    color: #666;
+    line-height: 3rem;
 }
 h1,h2,h3,h4,h5,h6 {	
 }
 p {
+    line-height: 3rem;
+}
+
+.flow-text {
+    font-size: 2.4rem;
+    line-height: 4.2rem;
+}
+.full-width {
+    width: 100%;
+}
+.jumbo-header {
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(255,255,255,.5);
+    text-shadow: 2px 2px 1px rgb(230,230,230), 0px 0px 0px #000;
+}
+.navbar {
+    position: relative;
 }
 .navbar ul li {
 	position: relative;
@@ -22,7 +44,7 @@ p {
 	background: transparent !important;
 }
 .navbar ul li a {
-	/* color: #ccc; */
+    font-size: 1.5rem;
 }
 .navbar ul li a:hover{
 	/* color: #fff; */
@@ -48,4 +70,43 @@ p {
 }
 .about.detail p {
 	line-height: 1.8em;
+}
+
+
+.contact {}
+/* label color */
+.input-field label {
+	color: #777;
+}
+/* label focus color */
+.input-field textarea:focus + label,
+.input-field input:focus + label {
+	color: #777;
+}
+/* label underline focus color */
+.input-field textarea:focus,
+.input-field input:focus {
+	border-bottom: 1px solid #777;
+	box-shadow: 0 1px 0 0 #777;
+}
+/* valid color */
+.input-field textarea.valid,
+.input-field input.valid {
+	border-bottom: 1px solid #9ccc65;
+	box-shadow: 0 1px 0 0 #9ccc65;
+}
+.input-field textarea.valid + label,
+.input-field input.valid + label {
+	color: #9ccc65;
+}
+/* invalid color */
+.input-field textarea.invalid,
+.input-field input.invalid {
+	border-bottom: 1px solid #b71c1c;
+	box-shadow: 0 1px 0 0 #b71c1c;
+}
+/* icon prefix focus color */
+.input-field .active,
+.input-field .prefix.active {
+ 	color: #e57373;
 }

@@ -1,38 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>leninhasda.me</title>
-
-	<!--Import materialize.css-->
-	<link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
-	<link type="text/css" rel="stylesheet" href="custom.css"/>
-
-	<!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-</head>
-<body class="grey lighten-4">
-	
-	<nav class="navbar red lighten-2" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col s12">
-					<a href="#">leninhasda.me</a>
-					<ul class="right">
-						<li><a href="#">home</a></li>
-						<li><a href="#">about</a></li>
-						<li><a href="#">works</a></li>
-						<li><a href="#">blog</a></li>
-						<li><a href="#">code play</a></li>
-						<li><a href="#">contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
+<?php include "header.php" ?>
 
 	<div class="row" style="margin-bottom: -140px;">
-		<div class="img" style="height: 340px; overflow:hidden; padding-top: -100px; background: url(stock-images/bg.jpg) no-repeat 100% 10%">
+		<div class="img" style="height: 340px; overflow:hidden; padding-top: -100px; background: url('stock-images/bg.jpg') no-repeat 100% 10%">
 			<!-- <img src="https://download.unsplash.com/photo-1428223501723-d821c5d00ca3" alt="" width="100%"> -->
 		</div>
 	</div>
@@ -42,7 +11,7 @@
 			<div class="col s12 m12 l3">
 				<div class="card">
 					<div class="card-image">
-						<img class="responsive-img" src="lufffy___from_one_piece_by_leninhasda-d8oj646.jpg">
+						<img class="responsive-img" src="stock-images/luffy.jpg">
 		            </div>
 		            <div class="card-content">
 		            	<p class="card-title red-text text-lighten-2">Latest Deviation</p>
@@ -72,8 +41,4 @@
 		</div>
 	</div>
 
-	<!--Import jQuery before materialize.js-->
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
-</body>
-</html>
+<?php include "footer.php" ?>
