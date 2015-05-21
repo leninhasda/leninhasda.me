@@ -22,8 +22,9 @@
                         <li><a href="index.php">home</a></li>
                         <li><a href="about.php">about</a></li>
                         <li><a href="works.php">works</a></li>
-                        <li><a href="#">blog</a></li>
+                        <li><a href="works.php">resume</a></li>
                         <li><a href="#">code play</a></li>
+                        <li><a href="#">blog</a></li>
                         <li><a href="contact.php">contact</a></li>
                     </ul>
                 </div>

@@ -11,6 +11,19 @@ h1,h2,h3,h4,h5,h6 {
 p {
     line-height: 3rem;
 }
+label, input, select, textarea {
+    font-size: 1.7rem !important;
+}
+label {
+    top: -0.2rem !important;
+}
+.card-panel,
+.card {
+    font-size: 1.7rem;
+}
+.btn {
+    text-transform: lowercase;
+}
 
 .flow-text {
     font-size: 2.4rem;
