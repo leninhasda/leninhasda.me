@@ -1,48 +1,115 @@
-<?php include "header.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-	<div class="row">
-		<div class="img col s12 valign-wrapper center-align" style="height: 340px; overflow:hidden; padding-top: -100px; background: url('stock-images/bg.jpg') no-repeat 100% 10%">
-            <!--<div class="container">
-                <div class="col s12 valign-wrapper center-align">-->
-                    <h1 class="valign center full-width jumbo-header">hello world</h1>
-                <!--</div>
-            </div>-->
-		</div>
-	</div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/images/favicon.ico">
+    <title>Lenin Hasda | anime lover, *nixer, hacker</title>
 
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m12 l4">
-				<div class="card">
-					<div class="card-image">
-						<img class="responsive-img" src="stock-images/luffy.jpg">
-		            </div>
-		            <div class="card-content">
-		            	<p class="card-title red-text text-lighten-2">Latest Deviation</p>
-		            </div>
-				</div>
-			</div>
-			<div class="col s12 m12 l5">
-				<div class="card-panel">
-					<p class="flow-text grey-text text-darken-2">hi! i’m lenin hasda from dhaka, bangladesh and i like doing interesting staff :D <br/> as a professional i'm a (web) programmer and love wordpress a lot. but apart from this i do cycling, drawing , puzzle solving, running, blogging, listen to music, watch anime and definitely hang around with friends <a href="" class="red-text text-lighten-2"><small>. . .<code>[more]</code></small></a></p>
-				</div>
-			</div>
-			<div class="col s12 m12 l3">
-				<div class="card">
-					<div class="card-content">
-						<span class="card-title red-text text-lighten-2">
-							from the blog
-						</span>
-						<div class="divider red lighten-2"></div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="card-content">
-						<p>Hi! I’m Lenin Hasda, a designer and coder. Programming is one thing I love to do most as well as graphics design too. So combining these two I do web design and development. I am still learning everyday. Apart from these, I try to solve ACM problems and I’m proud member of contestant team in our University Programming Club.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<?php include "footer.php" ?>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="inner">
+                <h1>
+                    <b>the core project</b>
+                </h1>
+                <p class="lead">anime lover, *nixer, hacker</p>
+            </div>
+            <nav class="clearfix">
+                <ul class="nav nav-pills navbar-left">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#">works</a></li>
+                    <li><a href="#">resume</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">play</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+
+                <ul class="nav nav-pills navbar-right">
+                    <li><a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa fa-github"></i>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Subheading</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                <h4>Subheading</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                <h4>Subheading</h4>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+            <div class="col-lg-6">
+                <h4>Subheading</h4>
+                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                <h4>Subheading</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+                <h4>Subheading</h4>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2015.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <em>last update: <?=date("d M, Y", strtotime("yesterday"))?></em>
+                </div>
+            </div>
+        </footer>
+
+    </div> <!-- /container -->
+
+
+
+    <!-- Latest compiled and minified jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
