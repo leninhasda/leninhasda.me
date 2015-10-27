@@ -1,55 +1,51 @@
-<?php include "header.php"?>
-	<div class="row" style="margin-bottom: -140px;">
-		<div class="img" style="height: 340px; overflow:hidden; padding-top: -100px; background: url(stock-images/bg.jpg) no-repeat 100% 10%">
-			<!-- <img src="https://download.unsplash.com/photo-1428223501723-d821c5d00ca3" alt="" width="100%"> -->
+<?php include 'header.php'; ?>
+<div class="jumbotron grey lighten-3">
+	<?php include 'nav.php'; ?>
+</div>
+<div class="contact-wrap">
+	<div class="row">
+		<div class="col-md-7">
+			<p><b>say hello, </b> <br>have anyting interesting to say to me? don't hesitate to contact me.</p>
 		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col s6 offset-s3">
-				<form class="card-panel">
-                    <div class="row">
-                        <div class="col s12">
-                            <h3 class="red-text text-lighten-2">get in touch with me</h3>
-                            <p>have any to say?? feel free to leave me a message</p>
-                        </div>
-                    </div>
-                    <div class="row"></div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">first Name</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">email</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="subject" type="text" class="validate">
-                            <label for="subject">subject</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                            <label for="textarea1">message</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12">
-                            <button class="btn btn-large waves-effect waves-light" type="submit" name="action">send
-                                <i class="mdi-content-send right"></i>
-                            </button>
-                        </div>
-                    </div>
-				</form>	
-			</div>		
+		<div class="col-md-5">
+			<div class="card-panel">
+        		<p><b>email:</b> leninhasda [at] gmail [dot] com</p>
+        		<p><b>skype:</b> leninhasda</p>
+        	</div>
 		</div>
-	</div>
+		<div class="col-md-12">
+			<div class="inner">
+				<hr>
+				<form id="form-login" action="" method="post" role="form">
+					<div class="row">
+						<div class="col-md-6 form-group  field-loginform-password required">
+							<label class="control-label" for="loginform-email">name*</label>
+							<input type="text" id="loginform-email" class="form-control" name="LoginForm[email]">
+							<p class="help-block help-block-error"></p>
+						</div>
+						<div class="col-md-6 form-group  field-loginform-password required">
+							<label class="control-label" for="loginform-password">email*</label>
+							<input type="email" id="loginform-password" class="form-control" name="LoginForm[password]">
+							<p class="help-block help-block-error"></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 form-group  field-loginform-password required">
+							<label class="control-label" for="loginform-password">message*</label>
+							<textarea id="loginform-password" class="form-control materialize-textarea" rows="5" name="LoginForm[password]"></textarea>
+							<p class="help-block help-block-error"></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 form-group btn-wrap">
+							<button type="submit" class="waves-effect waves-light btn" name="login-button">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 
-<?php include "footer.php"?>
+		
+	</div>
+</div>
+<?php include 'footer.php'; ?>

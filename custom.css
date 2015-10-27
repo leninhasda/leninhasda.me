@@ -1,47 +1,53 @@
-/* Space out content a bit */
+/* common */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
+}
+p {
+  line-height: 1.5;
+}
+a {
+  color: #C35C5C;
+  border-bottom: dotted 1px #E57373;  
+}
+a:hover {
+  color: #E57373;
+  text-decoration: none;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
-.marketing,
 .footer {
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* Custom page header */
+/* header */
 .header {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
-/* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
 }
 
-/* Custom page footer */
+/* footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
+  padding-top: 20px;
+  color: #888;
+  font-size: 15px;
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 760px;
-  }
+/* container */
+.container {
+  width: 100%;
 }
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
+/* jumbotron */
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
@@ -49,59 +55,170 @@ body {
   border-radius: 3px;
 }
 .jumbotron > .inner {
-  padding: 48px 60px;
+  /*padding: 48px 60px;*/
+  padding: 30px 0;
 }
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+.jumbotron .inner h1 {
+  padding: 0 15px;
 }
-.jumbotron > nav {
+
+
+/* navigation */
+.div-nav {
   background: rgba(80,80,80,.5);
-  background: #E57373 ;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-.jumbotron > nav .nav-pills > li > a {
+.div-nav a {
+  border-bottom: 0;
+}
+.div-nav .nav>li>a:focus, 
+.div-nav .nav>li>a:hover {
+  color: #E57373;
+}
+.div-nav .nav>li.active>a:hover {
+  color: #eee;
+}
+.div-nav .nav>li.active>a {
+  background: #C35C5C;
+}
+/* nav toggle */
+.div-nav .navbar-toggle {
+  border-right: 1px solid #C35C5C;
+  float: left;
+  margin: 0;
+  background-color: transparent;
+  border-radius: 0 0 0 3px;
+  border: 0;
+  padding: 15px;
+}
+.div-nav .navbar-toggle:focus,
+.div-nav .navbar-toggle.actove {
+  background-color: #C35C5C;
+}
+.div-nav .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+/* nav pills common */
+.div-nav .nav-pills > li > a {
   border-radius: 0;
   color: white;
 }
-.jumbotron > nav .nav-pills.navbar-left > li:first-child > a {
+.div-nav .nav-pills.navbar-left > li:first-child > a {
   border-bottom-left-radius: 3px;
 }
-.jumbotron > nav .nav-pills>li+li {
-    margin-left: 0;
+.div-nav .nav-pills>li+li {
+  margin-left: 0;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+/* main nav */
+.div-nav .main-menu {
+  padding: 0;
+  margin-top: 43px;
+  text-align: left;
+  width: 100%;
 }
-.marketing p + h4 {
-  margin-top: 28px;
+.div-nav .main-menu li {
+  display: block;
+  float: none;
 }
 
-.navbar-right {
-    margin-right: 0;
-}
-.navbar-right li:last-child a,
-.navbar-right li:last-child a:hover {
+/* nav social */
+.div-nav .nav.nav-social li:last-child a,
+.div-nav .nav.nav-social li:last-child a:hover {
   border-bottom-right-radius: 3px;
 }
+.div-nav .nav.nav-social > li {}
+.div-nav .nav.nav-social > li:nth-child(1) a:hover {
+  color: #48649F;
+}
+.div-nav .nav.nav-social > li:nth-child(2) a:hover {
+  color: #55ACEE;
+}
+.div-nav .nav.nav-social > li:nth-child(3) a:hover {
+  color: #0077B5;
+}
+.div-nav .nav.nav-social > li:nth-child(4) a:hover {
+  color: #05CC47;
+}
+.div-nav .nav.nav-social > li:nth-child(5) a:hover {
+  color: #333;
+}
+
+/* work item */
+.work-item-wraps {}
+.work-item-wraps .work-item {}
+.work-item-wraps .work-item .inner {
+  margin-bottom: 30px;
+}
+.work-item-wraps .work-item .card-content .card-title {
+  cursor: pointer;
+  font-size: 18px;
+}
+.work-item-wraps .work-item .card-reveal {}
+.work-item-wraps .work-item .card-reveal .card-title {
+  font-size: 18px;
+}
+.work-item-wraps .work-item .card-reveal .url {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 10px;  
+}
+.work-item-wraps .work-item .card-reveal .url b {
+  font-weight: 500;
+}
+.work-item-wraps .work-item .card-reveal .desc {}
+.work-item-wraps .work-item .card-reveal .desc p {
+  font-size: 16px;
+}
+
+/* contact */
+.contact-wrap {}
+.contact-wrap .card-panel {
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.16),0 1px 1px 0 rgba(0,0,0,0.12);
+  font-size: 16px;
+}
+.contact-wrap .card-panel p:last-child {
+  margin-bottom: 0;
+}
+.contact-wrap .card-panel b {
+  font-weight: 500;
+}
+.contact-wrap form .row {
+  margin-bottom: 0px;
+}
+.contact-wrap form label {
+  font-size: 16px;
+  color: #777;
+  font-weight: 400;
+}
+.contact-wrap form .row:last-child {
+  margin-bottom: 20px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
+  .container {
+    max-width: 950px;
+  }
   .header,
-  .marketing,
   .footer {
     padding-right: 0;
     padding-left: 0;
   }
-  /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+  /* main nav */
+  .div-nav .main-menu {
+    margin-top: 0;
+  }
+  .div-nav .main-menu li {
+    display: inline-block;
+    float: left;
   }
 }

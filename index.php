@@ -1,115 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php include "header.php" ?>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/images/favicon.ico">
-    <title>Lenin Hasda | anime lover, *nixer, hacker</title>
+<div class="jumbotron grey lighten-3">
+    <div class="inner">
+        <h1><b>lenin hasda</b></h1>
+        <p class="lead">anime freak, *nixer, hacker</p>
+    </div>
+    <?php include 'nav.php'; ?>
+</div>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<div class="row the-body">
+    <div class="col-md-12">
+        <div class="inner">
+            <p>hi, it's <b>lenin</b> from <b>dhaka</b>, the capital of <b>bangladesh</b>. and as the subtitle says, i'm an anime freak, *nixer &amp; a hacker who loves digging and doing interesting things.</p>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+            <p>professionally i am a <b>full stack</b> developer working at <a href="http://www.ice9interactive.com/">ice9 interactive ltd.</a> about 9 months now. before that I was a freelance developer for almost 2 years mainly working on <a href="https://www.upwork.com/freelancers/~01978ce9a95476852e">odesk</a>, currently known as upwork. my focus is on <b>lamp stack</b> and my primary skills include:</p>
 
-    <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+            <ul>
+                <li><b>PHP:</b> CodeIgniter, Yii2</li>
+                <li><b>JavaScript:</b> jQuery, AngularJS</li>
+                <li><b>CMS:</b> WordPress, Prestashop</li>
+            </ul>
 
-    <!-- Custom styles for this template -->
-    <link href="custom.css" rel="stylesheet">
+            <p>besides these I have working experience with C/C++, Java, ActionScript 3.0 and a little bit of NodeJS and C#. i use both <b>apache2</b> and <b>nginx</b> on <b>vagrant</b> which runs <b>linux VMs</b> and for my database i mostly use <b>MySQL</b>. i can and have deployed web applications on <b>VPS</b> server like <b>DigitalOcean</b> and <b>MediaTemple</b>. </p>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
-</head>
+            <p>i did my bachelor degree on <b>computer science and engineering</b> from <a href="http://ewubd.edu/">east west university</a>, bangladesh. i was an <b>acm contestant</b> and a proud member of our university programming club. i still try to solve problems in my leisure time. </p>
 
-<body>
-
-    <div class="container">
-
-        <div class="jumbotron">
-            <div class="inner">
-                <h1>
-                    <b>the core project</b>
-                </h1>
-                <p class="lead">anime lover, *nixer, hacker</p>
-            </div>
-            <nav class="clearfix">
-                <ul class="nav nav-pills navbar-left">
-                    <li class="active"><a href="#">home</a></li>
-                    <li><a href="#">works</a></li>
-                    <li><a href="#">resume</a></li>
-                    <li><a href="#">blog</a></li>
-                    <li><a href="#">play</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
-
-                <ul class="nav nav-pills navbar-right">
-                    <li><a href="#">
-                        <i class="fa fa-facebook"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fa fa-twitter"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fa fa-linkedin"></i>
-                    </a></li>
-                    <li><a href="#">
-                        <i class="fa fa-github"></i>
-                    </a></li>
-                </ul>
-            </nav>
+            <p>other things i like to do in my leisure: <span class="clip">#sketching</span> <span class="">#running</span> <span class="">#reading</span> <span class="">#cycling</span></p>
         </div>
+    </div>
+</div>
 
-        <div class="row marketing">
-            <div class="col-lg-6">
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-                <h4>Subheading</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                <h4>Subheading</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
-
-            <div class="col-lg-6">
-                <h4>Subheading</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-                <h4>Subheading</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                <h4>Subheading</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
-        </div>
-
-        <footer class="footer">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; 2015.</p>
-                </div>
-                <div class="col-md-6 text-right">
-                    <em>last update: <?=date("d M, Y", strtotime("yesterday"))?></em>
-                </div>
-            </div>
-        </footer>
-
-    </div> <!-- /container -->
-
-
-
-    <!-- Latest compiled and minified jquery -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <!-- Latest compiled and minified bootstrap js -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php include "footer.php" ?>

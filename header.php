@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>leninhasda.me</title>
 
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="custom.css"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/images/favicon.ico">
+    <title>lenin hasda | anime lover, *nixer, hacker</title>
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!-- google font ubuntu -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' type='text/css'> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
+    
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="../bower_components/Materialize/dist/css/materialize.min.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
-<body class="grey lighten-4">
 
-    <nav class="navbar red lighten-2" role="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <a href="#">leninhasda.me</a>
-                    <ul class="right">
-                        <li><a href="index.php">home</a></li>
-                        <li><a href="about.php">about</a></li>
-                        <li><a href="works.php">works</a></li>
-                        <li><a href="works.php">resume</a></li>
-                        <li><a href="#">code play</a></li>
-                        <li><a href="#">blog</a></li>
-                        <li><a href="contact.php">contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+<body class="grey lighten-5">
+    <div class="container">
