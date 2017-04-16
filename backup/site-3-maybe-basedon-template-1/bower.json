@@ -1,0 +1,27 @@
+{
+  "name": "leninhasda.me",
+  "authors": [
+    "Lenin Hasda <leninhasda@gmail.com>"
+  ],
+  "description": "personal site",
+  "main": "index",
+  "keywords": [
+    "lenin",
+    "hasda",
+    "leninhasda"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.95.3",
+    "bootstrap": "^3.3.7"
+  }
+}
