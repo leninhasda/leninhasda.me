@@ -1,0 +1,23 @@
+{
+  "name": "leninhasda.me",
+  "description": "personal site of lenin hasda",
+  "main": "index.js",
+  "authors": [
+    "Lenin Hasda <leninhasda@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "lenin",
+    "hasda",
+    "leninhasda"
+  ],
+  "homepage": "index",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "leninhasda.me",
+  "version": "3.0.0",
+  "description": "personal site of lenin hasda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://leninhasda@bitbucket.org/leninhasda/leninhasda.me.git"
+  },
+  "keywords": [
+    "lenin",
+    "hasda",
+    "leninhasda"
+  ],
+  "author": "Lenin Hasda <leninhasda@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/leninhasda/leninhasda.me#readme"
+}
