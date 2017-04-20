@@ -1,7 +1,7 @@
 {
   "name": "leninhasda.me",
   "description": "personal site of lenin hasda",
-  "main": "index.js",
+  "main": "serve.js",
   "authors": [
     "Lenin Hasda <leninhasda@gmail.com>"
   ],

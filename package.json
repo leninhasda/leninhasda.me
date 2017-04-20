@@ -2,7 +2,7 @@
   "name": "leninhasda.me",
   "version": "3.0.0",
   "description": "personal site of lenin hasda",
-  "main": "index.js",
+  "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/leninhasda/leninhasda.me#readme",
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
   "devDependencies": {
