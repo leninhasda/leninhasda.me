@@ -2,7 +2,7 @@
     "pageTitle": "Lenin Hasda - learner, passionate programmer",
     "introBlock": {
         "title": "Hello World!",
-        "intro": "Welcome to my personal site. <br>I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Professionally I'm a <code>Full Stack Developer</code> based in Dhaka, Bangladesh"
+        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Professionally I'm a <code>Full Stack Software Engineer</code> based in Dhaka, Bangladesh"
     },
     "menuCards": [
         {
@@ -19,7 +19,7 @@
         },
         {
             "title": "Blog",
-            "tag": "Yeah, I write stuff. Take a look"
+            "tag": "Yeah, I write stuff. Take a look ..."
         },
         {
             "title": "PlayGround",
