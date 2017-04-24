@@ -87,10 +87,6 @@ gulp.task('copy-img', function(){
     .pipe(gulp.dest(imgDest));
 });
 
-gulp.task('watcher', function(){
-
-});
-
 var fileSrc;
 var fileDest = __dirname + '/public';
 gulp.task('copy-files', function(){
@@ -99,6 +95,14 @@ gulp.task('copy-files', function(){
     ])
     .pipe(gulp.dest(fileDest));
 });
+
+
+gulp.task('watcher', function(){
+    gulp.watch('client/**/*',
+        ['copy-files', 'copy-img', 'copy-font', 'process-js', 'process-vendor-js', 'process-vendor-css', 'convert-less']
+    );
+});
+
 
 
 gulp.task('process-header-scripts', function() {
