@@ -6,11 +6,11 @@ var compression  = require('compression');
 // config
 
 //  set dirctory structure
-var __appDir = __dirname + '/app';
+var __serverDir = __dirname + '/server';
 var __publicDir = __dirname + '/public';
-var __viewDir = __appDir + '/views';
+// var __viewDir = __appDir + '/views';
 
-var routes = require(__appDir+'/routes');
+var routes = require(__serverDir + '/routes');
 app.use(compression());
 app.use(express.static(__publicDir));
 // app.use('views', __viewDir);
@@ -18,5 +18,8 @@ app.use(express.static(__publicDir));
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
 
-var server = app.listen(3001);
+
+app.set('port', 3000);
+var server = app.listen(app.get('port'));
+console.log()
 routes.init(app);

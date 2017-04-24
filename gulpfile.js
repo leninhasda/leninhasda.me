@@ -87,7 +87,18 @@ gulp.task('copy-img', function(){
     .pipe(gulp.dest(imgDest));
 });
 
+gulp.task('watcher', function(){
 
+});
+
+var fileSrc;
+var fileDest = __dirname + '/public';
+gulp.task('copy-files', function(){
+    gulp.src([
+        __dirname + '/client/html/**/*.html'
+    ])
+    .pipe(gulp.dest(fileDest));
+});
 
 
 gulp.task('process-header-scripts', function() {

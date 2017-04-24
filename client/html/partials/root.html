@@ -1,0 +1,45 @@
+<section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card horizontal" >
+                    <!-- <div class="card-image">
+                        <img src="http://unsplash.it/195/286" class="responsive-img">
+                    </div> -->
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <!-- <p class="card-title center-align red-text">Hello World!</p> -->
+                            <!-- <p class="card-title red-text">Hello World!</p> -->
+                            <p class="card-title" style="font-weight: 500">{{introBlock.title}}</p>
+                            <p class="intro" ng-bind-html="introBlock.intro | html"></p>
+                        </div>
+                        <div class="card-action social-action ">
+                            <div class="valign-wrapper left" style="height: 100%">
+                                <a href="https://github.com/leninhasda" target="_blank" class="ico valign"><i class="fa fa-github fa-lg"></i></a>
+                                <a href="http://stackoverflow.com/users/3664021/leninhasda" target="_blank" class="ico valign"><i class="fa fa-stack-overflow fa-lg"></i></a>
+                                <a href="https://twitter.com/leninhasda" target="_blank" class="ico valign"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="https://bd.linkedin.com/in/leninhasda" target="_blank" class="ico valign"><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href="http://leninhasda.deviantart.com/" target="_blank" class="ico valign"><i class="fa fa-deviantart fa-lg"></i></a>
+                            </div>
+                            <a href="#hire-md" class="btn btn-sm right hide">Hire me!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 home-action">
+                <div class="row">
+                    <div class="col s12 m6" ng-repeat="card in menuCards">
+                        <div class="card">
+                            <a href="about-me.html">
+                                <div class="card-content">
+                                    <p class="card-title">{{card.title}}</p>
+                                    <p class="grey-text">{{card.tag}}</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

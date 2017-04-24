@@ -29,6 +29,7 @@ module.exports.init = function(app){
 
         if( initFile.length > 0 ) {
             module = require(initFile)(app);
+            console.log(moduleName + ' module loaded');
             if( fs.existsSync(viewPath) ) {
                 viewsDir.push(viewPath);
             }

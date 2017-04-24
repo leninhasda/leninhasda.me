@@ -1,8 +1,13 @@
 module.exports = function(app){
-    var prefix = '/api/v0';
+    var prefix = '/data';
 
     app.get(prefix + '/', function(req, res){
-        baseUrl = req.protocol + '://' + req.hostname + prefix;
+        port = app.get('port');
+        baseUrl = req.protocol + '://' + req.hostname;
+        if( port ) {
+            baseUrl += ':' + port;
+        }
+        baseUrl += prefix;
         dataPath = {
             root:       baseUrl + '/root',
             about:      baseUrl + '/about',
