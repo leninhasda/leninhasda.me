@@ -1,7 +1,11 @@
 // var app = angular.module('rssApp', ['ngRoute', 'angularMoment']);
 var app = angular.module('lnApp', ['ngRoute']);
 var S = null;
-app.config(['$routeProvider', function($routeProvider){
+app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
+
+    $locationProvider
+        .html5Mode({enabled:true})
+        .hashPrefix('');
     $routeProvider
         .when('/', {
             templateUrl: '/template/root',
@@ -39,18 +43,25 @@ app.config(['$routeProvider', function($routeProvider){
         return $sce.trustAsHtml(data);
     };
 }])
-.controller('homeController',['$scope', '$sce', '$http', function($scope, $sce, $http){
-    // console.log('hello');
-    S = $scope;
+.controller('homeController',['$scope', '$http', '$sce', function($scope, $http, $sce){
     $http.get('/api/v0/root')
         .then(function(res){
             console.log(res.data);
             document.title = res.data.pageTitle;
-            // $scope.introBlock = $sec.trustAsHtml(res.data.introBlock);
             $scope.introBlock = res.data.introBlock;
             $scope.menuCards = res.data.menuCards;
         });
-}]);
+}])
+.controller('aboutController', ['$scope', '$http', function($scope, $http){
+    $http.get('/api/v0/about')
+        .then(function(res){
+            console.log(res.data);
+            document.title = res.data.pageTitle;
+            $scope.jumboTitle = res.data.jumboTitle;
+            $scope.bodyContent = res.data.bodyContent;
+        });
+}])
+;
 // .controller('feedController', ['$scope', '$sce', '$http', function($scope, $sce, $http){
 //     rss_url = 'http://ax.itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/justadded/limit=10/rss.xml';
 //     rss_2_json = 'api/tojson';
