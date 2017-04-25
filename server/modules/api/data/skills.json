@@ -3,35 +3,43 @@
     "jumboTitle": "learner, programmer, *nix hacker",
     "jumboTag": "I am learning and improving every single day. Following is the tech list that I have worked with and the percentage beside them represents how comfortable I am working with that tech.",
     "programmingLang": [
-        {"name": "PHP", "percent": "90%"},
-        {"name": "C/C++", "percent": "50%"},
-        {"name": "Javascript", "percent": "75%"},
-        {"name": "Python", "percent": "35%"}
+        {"name": "PHP", "percent": "90%", "color": "deep-purple lighten-1"},
+        {"name": "C/C++", "percent": "50%", "color": "teal"},
+        {"name": "Javascript", "percent": "75%", "color": "orange"},
+        {"name": "Python", "percent": "35%", "color": "indigo"}
     ],
     "cms": [
-        {"name": "Wordpress", "percent": "90%"},
-        {"name": "Prestshop", "percent": "85%"},
-        {"name": "Ghost", "percent": "60%"}
+        {"name": "Wordpress", "percent": "90%", "color": "blue darken-1"},
+        {"name": "Prestshop", "percent": "85%", "color": "teal"},
+        {"name": "Ghost", "percent": "60%", "color": "green"}
+    ],
+    "servers": [
+        {"name": "cPanel", "percent": "95%", "color": "orange"},
+        {"name": "VPS / DigitalOcean", "percent": "90%", "color": "blue"},
+        {"name": "AWS EC2", "percent": "60%", "color": "orange lighten-2"},
+        {"name": "Ubuntu / CentOS", "percent": "90%", "color": "red"}
     ],
     "others": [
-        {"name": "MatLab", "percent": "40%"},
-        {"name": "Processing", "percent": "20%"},
-        {"name": "Flash / Action Script 3.0", "percent": "50%"}
+        {"name": "MatLab", "percent": "40%", "color": "orange darken-3"},
+        {"name": "Processing", "percent": "20%", "color": "teal lighten-1"},
+        {"name": "Flash / Action Script 3.0", "percent": "50%", "color": "red lighten-1"}
     ],
     "frameworks": [
-        {"name": "Yii2 Framework", "percent": "90%"},
-        {"name": "Laravel", "percent": "70%"},
-        {"name": "Slim Framework", "percent": "60%"},
-        {"name": "Lumen", "percent": "40%"},
-        {"name": "Symfony", "percent": "20%"},
-        {"name": "Django", "percent": "45%"},
-        {"name": "NodeJS", "percent": "65%"},
-        {"name": "AngularJS", "percent": "90%"},
-        {"name": "ReactJS", "percent": "75%"}
+        {"name": "Yii2 Framework", "percent": "90%", "color": "light-blue darken-2"},
+        {"name": "Laravel", "percent": "70%", "color": "red lighten-1"},
+        {"name": "Slim Framework", "percent": "60%", "color": "green"},
+        {"name": "Lumen", "percent": "40%", "color": "red lighten-2"},
+        {"name": "Symfony", "percent": "20%", "color": "grey darken-2"},
+        {"name": "Django", "percent": "30%", "color": "green darken-3"},
+        {"name": "jQuery", "percent": "90%", "color": "blue darken-2"},
+        {"name": "NodeJS", "percent": "65%", "color": "lime darken-2"},
+        {"name": "AngularJS", "percent": "90%", "color": "red darken-1"},
+        {"name": "ReactJS", "percent": "75%", "color": "light-blue"}
     ],
     "tools": [
-        {"name": "Git", "percent": "85%"},
-        {"name": "Composer", "percent": "80%"},
-        {"name": "NPM / Yarn / Gulp", "percent": "65%"}
+        {"name": "Git", "percent": "85%", "color": "red lighten-1"},
+        {"name": "Composer", "percent": "80%", "color": "brown"},
+        {"name": "NPM / Yarn / Gulp / Less", "percent": "75%", "color": "pink darken-2"},
+        {"name": "Vagrant", "percent": "80%", "color": "blue"}
     ]
 }

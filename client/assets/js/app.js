@@ -43,6 +43,12 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         return $sce.trustAsHtml(data);
     };
 }])
+.filter('split', [function(){
+    return function(input, splitChar, index) {
+        return input.split(splitChar)[index];
+    }
+}
+])
 .controller('homeController',['$scope', '$http', '$sce', function($scope, $http, $sce){
     $http.get('/data/root')
         .then(function(res){
@@ -88,7 +94,24 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         $('#projectModal').modal('open');
     }
 }])
+.controller('skillsController', ['$scope', '$http', function($scope, $http){
+    $http.get('/data/skills')
+        .then(function(res){
+            console.log(res.data);
+            document.title = res.data.pageTitle;
+            $scope.jumboTitle = res.data.jumboTitle;
+            $scope.jumboTag = res.data.jumboTag;
+            $scope.programmingLang = res.data.programmingLang;
+            $scope.cms = res.data.cms;
+            $scope.servers = res.data.servers;
+            $scope.others = res.data.others;
+            $scope.frameworks = res.data.frameworks;
+            $scope.tools = res.data.tools;
+        });
+
+    }])
 ;
+
 // .controller('feedController', ['$scope', '$sce', '$http', function($scope, $sce, $http){
 //     rss_url = 'http://ax.itunes.apple.com/WebObjects/MZStore.woa/wpa/MRSS/justadded/limit=10/rss.xml';
 //     rss_2_json = 'api/tojson';

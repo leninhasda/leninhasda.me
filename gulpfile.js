@@ -54,7 +54,7 @@ gulp.task('process-vendor-js',function(){
     ])
     .pipe(concat('vendor.js'))
     .pipe(rename({suffix: '.min'} ))
-    // .pipe(uglify())
+    .pipe(uglify())
     // .pipe(gzip())
     .pipe(gulp.dest(jsDest));
 });

@@ -1,0 +1,60 @@
+<section style="padding-top: 50px" class="jumbotron">
+    <div class="container center">
+        <h2 class="grey-text">{{jumboTitle}}</h2>
+        <p>{{jumboTag}}</p>
+    </div>
+</section>
+
+<section style="padding-top: 30px" class="valign-wrapper projects-action">
+    <div class="container valign">
+        <div class="row">
+            <div class="col s12 m6">
+                <p class="flow-text"><b>Programming Language</b></p>
+                <div class="progress {{lang.color | split:' ':'0'}} lighten-5" ng-repeat="lang in programmingLang">
+                    <div class="progress-bar determinate {{lang.color}}" style="width: {{lang.percent}}"></div>
+                    <span class="progress-label">{{lang.name}}</span>
+                    <span class="progress-percent">{{lang.percent}}</span>
+                </div>
+
+                <p class="flow-text"><b>Content Management System</b></p>
+                <div class="progress {{cmsItem.color | split:' ':'0'}} lighten-5" ng-repeat="cmsItem in cms">
+                    <div class="progress-bar determinate {{cmsItem.color}}" style="width: {{cmsItem.percent}}"></div>
+                    <span class="progress-label">{{cmsItem.name}}</span>
+                    <span class="progress-percent">{{cmsItem.percent}}</span>
+                </div>
+
+                <p class="flow-text"><b>Servers</b></p>
+                <div class="progress {{serverItem.color | split:' ':'0'}} lighten-5" ng-repeat="serverItem in servers">
+                    <div class="progress-bar determinate {{serverItem.color}}" style="width: {{serverItem.percent}}"></div>
+                    <span class="progress-label">{{serverItem.name}}</span>
+                    <span class="progress-percent">{{serverItem.percent}}</span>
+                </div>
+
+                <p class="flow-text"><b>Others</b></p>
+                <div class="progress {{otherItem.color | split:' ':'0'}} lighten-5" ng-repeat="otherItem in others">
+                    <div class="progress-bar determinate {{otherItem.color}}" style="width: {{otherItem.percent}}"></div>
+                    <span class="progress-label">{{otherItem.name}}</span>
+                    <span class="progress-percent">{{otherItem.percent}}</span>
+                </div>
+            </div>
+
+
+            <div class="col s12 m6">
+                <p class="flow-text"><b>Frameworks</b></p>
+                <div class="progress {{frItem.color | split:' ':'0'}} lighten-5" ng-repeat="frItem in frameworks">
+                    <div class="progress-bar determinate {{frItem.color}}" style="width: {{frItem.percent}}"></div>
+                    <span class="progress-label">{{frItem.name}}</span>
+                    <span class="progress-percent">{{frItem.percent}}</span>
+                </div>
+
+                <p class="flow-text"><b>Tools</b></p>
+                <div class="progress {{toolItem.color | split:' ':'0'}} lighten-5" ng-repeat="toolItem in tools">
+                    <div class="progress-bar determinate {{toolItem.color}}" style="width: {{toolItem.percent}}"></div>
+                    <span class="progress-label">{{toolItem.name}}</span>
+                    <span class="progress-percent">{{toolItem.percent}}</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
