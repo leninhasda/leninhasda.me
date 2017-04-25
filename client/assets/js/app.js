@@ -34,6 +34,9 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             templateUrl: '/partials/contact.html',
             controller: 'contactController'
         })
+        .when('/4Oh4', {
+            templateUrl: '/partials/4Oh4.html'
+        })
         .otherwise({
             redirectTo: '/4Oh4'
         });
@@ -108,8 +111,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             $scope.frameworks = res.data.frameworks;
             $scope.tools = res.data.tools;
         });
-
-    }])
+}])
 ;
 
 // .controller('feedController', ['$scope', '$sce', '$http', function($scope, $sce, $http){
