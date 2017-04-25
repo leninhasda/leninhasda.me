@@ -8,30 +8,30 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         .hashPrefix('');
     $routeProvider
         .when('/', {
-            templateUrl: '/template/root',
+            templateUrl: '/partials/root.html',
             controller: 'homeController'
         })
         .when('/about', {
-            templateUrl: '/template/about',
+            templateUrl: '/partials/about.html',
             controller: 'aboutController'
         })
         .when('/projects', {
-            templateUrl: '/template/projects',
+            templateUrl: '/partials/projects.html',
             controller: 'projectsController'
         })
         .when('/skills', {
-            templateUrl: '/template/skills',
+            templateUrl: '/partials/skills.html',
             controller: 'skillsController'
         })
         .when('/play', {
-            templateUrl: '/template/play',
+            templateUrl: '/partials/play.html',
             controller: 'playController'
         })
         .when('/blog', {
             redirectTo: 'http://blog.leninhasda.me'
         })
         .when('/contact', {
-            templateUrl: '/template/contact',
+            templateUrl: '/partials/contact.html',
             controller: 'contactController'
         })
         .otherwise({
@@ -44,7 +44,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
     };
 }])
 .controller('homeController',['$scope', '$http', '$sce', function($scope, $http, $sce){
-    $http.get('/api/v0/root')
+    $http.get('/data/root')
         .then(function(res){
             console.log(res.data);
             document.title = res.data.pageTitle;
@@ -53,13 +53,40 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
         });
 }])
 .controller('aboutController', ['$scope', '$http', function($scope, $http){
-    $http.get('/api/v0/about')
+    $http.get('/data/about')
         .then(function(res){
             console.log(res.data);
             document.title = res.data.pageTitle;
             $scope.jumboTitle = res.data.jumboTitle;
             $scope.bodyContent = res.data.bodyContent;
         });
+}])
+.controller('projectsController', ['$scope', '$http', function($scope, $http){
+    $http.get('/data/projects')
+        .then(function(res){
+            console.log(res.data);
+            document.title = res.data.pageTitle;
+            $scope.jumboTitle = res.data.jumboTitle;
+            $scope.projects = res.data.projects;
+        });
+
+    $scope.mItem = {
+        "title": "test",
+        "desc": "",
+        "skiils": [],
+        "responsibilities": [],
+        "projectSpecs": [],
+        "url": ""
+    };
+
+    $(document).ready(function(){
+        $('.modal').modal();
+    });
+
+    $scope.showModal = function showModal(project){
+        $scope.mItem = project.info;
+        $('#projectModal').modal('open');
+    }
 }])
 ;
 // .controller('feedController', ['$scope', '$sce', '$http', function($scope, $sce, $http){

@@ -8,7 +8,8 @@ var autoprefixer    = require('gulp-autoprefixer'),
     uglify  = require('gulp-uglify');
 var gzip    = require('gulp-gzip');
 
-var appAssets = __dirname + '/app/assets';
+
+var appAssets = __dirname + '/client/assets';
 var lessSource  = appAssets + '/less/*.less',
     cssDest    = __dirname + '/public/static/css';
 
@@ -46,12 +47,14 @@ gulp.task('process-vendor-css',function(){
 var jsDest = __dirname + '/public/static/js';
 gulp.task('process-vendor-js',function(){
     gulp.src([
+        bowerDir + '/jquery/dist/jquery.js',
         bowerDir + '/angular/angular.js',
-        bowerDir + '/angular-route/angular-route.js'
+        bowerDir + '/angular-route/angular-route.js',
+        bowerDir + '/materialize/dist/js/materialize.js'
     ])
     .pipe(concat('vendor.js'))
     .pipe(rename({suffix: '.min'} ))
-    .pipe(uglify())
+    // .pipe(uglify())
     // .pipe(gzip())
     .pipe(gulp.dest(jsDest));
 });
@@ -78,7 +81,7 @@ gulp.task('copy-font', function(){
     .pipe(gulp.dest(fontsDest));
 });
 
-var imgSrc = __dirname + '/app/assets/img/*'
+var imgSrc = __dirname + '/client/assets/img/*'
 var imgDest = __dirname + '/public/static/img';
 gulp.task('copy-img', function(){
     gulp.src([

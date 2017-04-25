@@ -23,3 +23,6 @@ app.set('port', 3000);
 var server = app.listen(app.get('port'));
 console.log()
 routes.init(app);
+app.get('*', function(req, res){
+    res.sendFile(__publicDir+'/index.html');
+});
