@@ -2,32 +2,38 @@
     "pageTitle": "Lenin Hasda - learner, passionate programmer",
     "introBlock": {
         "title": "Hello World!",
-        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Professionally I'm a <code>Full Stack Software Engineer</code> based in Dhaka, Bangladesh"
+        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Professionally I'm a <code>Full Stack Software Engineer</code> based in Dhaka, Bangladesh, having 4+ years experience in LEMP / LAMP stack and about 1 year in MEAN stack. <br>Besides developement, I have decent amount of experience with Database and various Server Administration like: Digital Ocean, AWS EC2, VPS Server etc."
     },
     "menuCards": [
         {
             "title": "About Me",
-            "tag": "A not so brief intro of myself"
+            "tag": "A not so brief intro of myself",
+            "link": "/about"
         },
         {
             "title": "Projects",
-            "tag": "List of projects done for clients"
+            "tag": "List of projects done for clients",
+            "link": "/projects"
         },
         {
             "title": "Skills",
-            "tag": "Skill sets that I have and learning"
+            "tag": "Skill sets that I have and learning",
+            "link": "/skills"
         },
         {
             "title": "Blog",
-            "tag": "Yeah, I write stuff. Take a look ..."
+            "tag": "Yeah, I write stuff. Take a look ...",
+            "link": "http://blog.leninhasda.me"
         },
         {
             "title": "PlayGround",
-            "tag": "Interest and crazy pet projects"
+            "tag": "Interest and crazy pet projects",
+            "link": "/play"
         },
         {
             "title": "Contact",
-            "tag": "Say hi! Get in touch with me"
+            "tag": "Say hi! Get in touch with me",
+            "link": "/contact"
         }
     ]
 }

@@ -1,4 +1,4 @@
-<section style="padding-top: 50px" class="jumbotron">
+<section style="padding-top: 50px" class="jumbotron jumbo-heading">
     <div class="container center">
         <h2 class="grey-text">{{jumboTitle}}</h2>
     </div>
@@ -25,6 +25,7 @@
 <div id="projectModal" class="modal">
     <div class="modal-content">
         <h5>{{mItem.title}}</h5>
+        <p><a href="{{mItem.url}}" target="_blank" class="waves-effect waves-green green-text">{{mItem.url}}</a></p>
         <p>{{mItem.desc}}</p>
         <b>Skills:</b>
         <ul>
@@ -38,10 +39,7 @@
         <ul>
             <li ng-repeat="spec in mItem.projectSpecs">- {{spec}}</li>
         </ul>
-        <p>
-            <a href="{{mItem.url}}" target="_blank" class="waves-effect waves-green green-text">
-                {{mItem.url}}</a>
-        </p>
+
     </div>
     <div class="modal-footer hide">
         <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>

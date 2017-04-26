@@ -112,6 +112,12 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             $scope.tools = res.data.tools;
         });
 }])
+.controller('playController', ['$scope', '$http', function($scope, $http){
+    document.title = 'Play Ground - Lenin Hasda';
+}])
+.controller('contactController', ['$scope', '$http', function($scope, $http){
+    document.title = 'Contact me - Lenin Hasda';
+}])
 ;
 
 // .controller('feedController', ['$scope', '$sce', '$http', function($scope, $sce, $http){

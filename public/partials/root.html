@@ -1,4 +1,4 @@
-<section class="main-content">
+<section class="main-content" style="padding-top: 50px">
     <div class="container">
         <div class="row">
             <div class="col s12 m6">
@@ -30,7 +30,7 @@
                 <div class="row">
                     <div class="col s12 m6" ng-repeat="card in menuCards">
                         <div class="card">
-                            <a href="about-me.html">
+                            <a href="{{card.link}}">
                                 <div class="card-content">
                                     <p class="card-title">{{card.title}}</p>
                                     <p class="grey-text">{{card.tag}}</p>
