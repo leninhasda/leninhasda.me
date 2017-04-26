@@ -23,6 +23,14 @@ app.set('port', 3000);
 var server = app.listen(app.get('port'));
 console.log()
 routes.init(app);
+
+app.get('/tech-stack', function(req, res){
+    techStack = [
+        "NodeJS", "AngularJS", "Javascript", "HTML", "CSS", "LESS", "Gulp", "Nginx"
+    ];
+    res.json(techStack);
+});
+
 app.get('*', function(req, res){
     res.sendFile(__publicDir+'/index.html');
 });
