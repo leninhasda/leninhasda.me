@@ -2,7 +2,7 @@
     "pageTitle": "Lenin Hasda - learner, passionate programmer",
     "introBlock": {
         "title": "Hello World!",
-        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Currentry I am:<ul><li>working as a Ghopher at <a href='https://pathao.com'>Pathao</a></li><li>building microservices at scale</li><li>playing with docker and kubernetes</li><li>trying to learn guitar</li></ul>"},
+        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Currentry I am:<ul><li>- working as a Ghopher at <a href='https://pathao.com'>Pathao</a></li><li>- building microservices at scale</li><li>- playing with docker and kubernetes</li><li>- trying to learn guitar</li></ul>"},
     "menuCards": [
         {
             "title": "About Me",
