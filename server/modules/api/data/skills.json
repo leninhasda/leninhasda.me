@@ -6,12 +6,14 @@
         {"name": "PHP", "percent": "90%", "color": "deep-purple lighten-1"},
         {"name": "C/C++", "percent": "50%", "color": "teal"},
         {"name": "Javascript", "percent": "75%", "color": "orange"},
-        {"name": "Python", "percent": "35%", "color": "indigo"}
+        {"name": "Python", "percent": "65%", "color": "indigo"},
+        {"name": "Golang", "percent": "90%", "color": "cyan lighten-5"}
     ],
     "cms": [
         {"name": "Wordpress", "percent": "90%", "color": "blue darken-1"},
         {"name": "Prestshop", "percent": "85%", "color": "teal"},
-        {"name": "Ghost", "percent": "60%", "color": "green"}
+        {"name": "Ghost", "percent": "60%", "color": "green"},
+        {"name": "OctoberCMS", "percent": "60%", "color": "orange"}
     ],
     "servers": [
         {"name": "cPanel", "percent": "95%", "color": "orange"},
@@ -22,7 +24,8 @@
     "others": [
         {"name": "MatLab", "percent": "40%", "color": "orange darken-3"},
         {"name": "Processing", "percent": "20%", "color": "teal lighten-1"},
-        {"name": "Flash / Action Script 3.0", "percent": "50%", "color": "red lighten-1"}
+        {"name": "Flash / Action Script 3.0", "percent": "50%", "color": "red lighten-1"},
+        {"name": "OpenFramework", "percent": "30%", "color": "pink lighten-2"}
     ],
     "frameworks": [
         {"name": "Yii2 Framework", "percent": "90%", "color": "light-blue darken-2"},
@@ -34,12 +37,16 @@
         {"name": "jQuery", "percent": "90%", "color": "blue darken-2"},
         {"name": "NodeJS", "percent": "65%", "color": "lime darken-2"},
         {"name": "AngularJS", "percent": "90%", "color": "red darken-1"},
-        {"name": "ReactJS", "percent": "75%", "color": "light-blue"}
+        {"name": "ReactJS", "percent": "75%", "color": "light-blue"},
+        {"name": "Flask", "percent": "25%", "color": "grey darken-2"},
+        {"name": "Sanic", "percent": "25%", "color": " blue-grey lighten-1"}
     ],
     "tools": [
         {"name": "Git", "percent": "85%", "color": "red lighten-1"},
         {"name": "Composer", "percent": "80%", "color": "brown"},
         {"name": "NPM / Yarn / Gulp / Less", "percent": "75%", "color": "pink darken-2"},
-        {"name": "Vagrant", "percent": "80%", "color": "blue"}
+        {"name": "Vagrant", "percent": "80%", "color": "blue"},
+        {"name": "Docker", "percent": "80%", "color": "teal darken-3"},
+        {"name": "Kubermetes", "percent": "50%", "color": "light-blue"}
     ]
 }
