@@ -2,8 +2,7 @@
     "pageTitle": "Lenin Hasda - learner, passionate programmer",
     "introBlock": {
         "title": "Hello World!",
-        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Professionally I'm a <code>Full Stack Software Engineer</code> based in Dhaka, Bangladesh, having 4+ years experience in LEMP / LAMP stack and about 1 year in MEAN stack. <br>Besides development, I have decent amount of experience with Database and various Server Administration like: Digital Ocean, AWS EC2, VPS Server etc."
-    },
+        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Currentry I am:<ul><li>working as a Ghopher at <a href='https://pathao.com'>Pathao</a></li><li>building microservices at scale</li><li>playing with docker and kubernetes</li><li>trying to learn guitar</li></ul>"},
     "menuCards": [
         {
             "title": "About Me",
