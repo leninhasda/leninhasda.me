@@ -1,0 +1,39 @@
+{
+    "pageTitle": "Lenin Hasda - learner, passionate programmer",
+    "introBlock": {
+        "title": "Hello World!",
+        "intro": "I am Lenin Hasda, a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Currentry I am:<ul><li>- working as a Gopher at <a href='https://pathao.com'>Pathao</a></li><li>- building microservices at scale</li><li>- playing with docker and kubernetes</li><li>- trying to learn guitar</li></ul>"
+    },
+    "menuCards": [
+        {
+            "title": "About Me",
+            "tag": "A not so brief intro of myself",
+            "link": "/about"
+        },
+        {
+            "title": "Projects",
+            "tag": "List of projects done for clients",
+            "link": "/projects"
+        },
+        {
+            "title": "Skills",
+            "tag": "Skill sets that I have and learning",
+            "link": "/skills"
+        },
+        {
+            "title": "Blog",
+            "tag": "Yeah, I write stuff. Take a look ...",
+            "link": "https://blog.leninhasda.me"
+        },
+        {
+            "title": "PlayGround",
+            "tag": "Interest and crazy pet projects",
+            "link": "https://play.leninhasda.me"
+        },
+        {
+            "title": "Contact",
+            "tag": "Say hi! Get in touch with me",
+            "link": "/contact"
+        }
+    ]
+}
