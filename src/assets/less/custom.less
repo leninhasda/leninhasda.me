@@ -1,0 +1,225 @@
+// base
+/* default */
+::selection {
+  background-color: #ffecb3;
+  color: #333;
+}
+::-moz-selection {
+  background-color: #ffecb3;
+  color: #333;
+}
+html, body {
+    height: 100%;
+}
+html {}
+body {
+  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+}
+code {
+  color: #ee6e73;
+  background: #f5f5f5;
+  padding: 3px 7px;
+  font-size: 15px;
+}
+blockquote {
+  font-size: 24px;
+  font-family: cursive;
+  background: #f5f5f5;
+  padding: 7px 0 7px 1.5rem;
+}
+
+// utility
+.h100 {
+  height: 100%;
+}
+.vcenter {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.u {
+    text-decoration: underline;
+}
+
+// container
+.container {
+}
+
+// components //
+
+// jumbo heading
+.jumbo-heading {
+  h2 {
+    font-weight: 500;
+  }
+}
+
+// main nav
+.top-nav {
+  .nav-wrapper {
+    padding: 0 20px;
+  }
+}
+
+// intro
+.intro {
+  line-height: 1.8;
+}
+
+
+.social-action a.ico {
+  padding: 5px 5px;
+  border-radius: 4px;
+  color: #ee6e73 !important;
+  transition: all 1s;
+  margin-right: 15px !important;
+  &:hover {
+    color: white !important;
+    background: #ee6e73;
+    transition: all 1s;
+  }
+}
+.home-action a {
+  color: #333;
+  cursor: pointer;
+  transition: all 1s;
+  &:hover .card-content {
+    background: #f9f9f9;
+    p {
+      color: #666 !important;
+      transition: all 1s;
+      .card-title {
+        color: black !important;
+      }
+    }
+  }
+}
+footer  {
+  margin-bottom: 50px;
+  p {
+    border-top: 1px solid #ddd;
+    padding-top: 25px;
+  }
+}
+.about-me {
+  .card-content {
+    color: #666;
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin: 0 0 20px;
+    }
+    h1 {
+      margin: 15px 0 0;
+      font-weight: 700;
+    }
+  }
+}
+
+.projects-action {
+  .card {
+    margin-bottom: 35px;
+    .card-image {
+    max-height: 230px;
+    min-height: 230px;
+      .card-title {
+        padding: 10px 15px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.modal {
+  width: 60%;
+}
+@media only screen and (max-width: 992px) {
+  .modal {
+    width: 85%;
+    max-height: 85%;
+  }
+}
+.waves-effect.waves-blue .waves-ripple{
+  background-color: rgba(3, 169, 244, .7);
+}
+
+.progress {
+  height: 32px;
+  position: relative;
+  .progress-bar {
+    -webkit-animation: progress-bar-stripes 2s linear infinite;
+    -o-animation: progress-bar-stripes 2s linear infinite;
+    animation: progress-bar-stripes 2s linear infinite;
+    background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.15) 50%, rgba(255,255,255,0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+  }
+  .progress-label {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px 10px 3px;
+    background: rgba(0, 0, 0, .2);
+    font-weight: 900;
+  }
+  .progress-percent {
+    color: #333;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px 3px;
+    font-weight: 400;
+  }
+}
+.blog-list {
+  border: 0;
+  li {
+    &.collection-item {
+      padding: 0;
+      background: transparent;
+      border-bottom-color: #777;
+      border-bottom-style: dotted;
+    }
+    a {
+      font-size: 18px;
+      color: #444;
+      display: block;
+      padding: 15px 20px;
+      background: transparent;
+      transition: all .3s;
+      span {
+        &.title {
+          font-weight: 700;
+        }
+        &.pub-date {
+          font-weight: 300;
+        }
+      }
+      &:hover {
+        background: white;
+        color: #ee6e73;
+        padding-left: 40px;
+        transition: all .3s;
+      }
+    }
+  }
+}
+.blog-single {
+  .chip {
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  h2 {
+    font-size: 34px;
+    font-weight: 500;
+  }
+}
