@@ -1,0 +1,7 @@
+{
+  "pageTitle": "Lenin Hasda - learner, passionate programmer",
+  "introBlock": {
+    "title": "Hello World!",
+    "intro": "Hello and welcome to my home on the internet. <br><br>My name is Lenin Hasda and I am a <span class=\"u\">Software Engineer</span>. But I like to think myself as a life long <span class=\"u\">learner</span>, passionate <span class=\"u\">programmer</span>, hobbyist <del>drawer</del> <span class=\"u\">sketch artist</span>, <span class=\"u\">hacker</span> (sometimes)  and a <span class=\"u\">maker</span>.<br><br> Currentry I am:<ul><li>- learning to write more human readable code</li><li>- working as a Gopher at <a href='https://pathao.com'>Pathao</a></li><li>- building microservices that scale</li><li>- playing with docker and kubernetes</li><li>- <del>planning to learn</del> learning guitar</li></ul>"
+  }
+}
