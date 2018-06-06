@@ -77,12 +77,13 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
             document.title = res.data.pageTitle;
             $scope.jumboTitle = res.data.jumboTitle;
             $scope.projects = res.data.projects;
+            $scope.openSource = res.data.openSource;
         });
 
     $scope.mItem = {
         "title": "test",
         "desc": "",
-        "skiils": [],
+        "skills": [],
         "responsibilities": [],
         "projectSpecs": [],
         "url": ""

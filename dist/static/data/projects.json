@@ -209,5 +209,187 @@
                 "url": "http://gobdgo.com/"
             }
         }
+    ],
+    "openSource": [
+        {
+            "url": "https://github.com/leninhasda/gojsonq",
+            "project": "gojsonq",
+            "info": "A simple Go package to Query over JSON Data",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/go-serve",
+            "project": "go-serve",
+            "info": "Quickly spin up a file server",
+            "status": {
+                "text": "beta-released",
+                "badge": "lime"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/hisab-khata",
+            "project": "hisab-khata",
+            "info": "personal financial log book. still in very basic stage that i will improve eventually!",
+            "status": {
+                "text": "in-progress",
+                "badge": "grey"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/bitopi",
+            "project": "bitopi",
+            "info": "Dockerized environment for developing PHP applications",
+            "status": {
+                "text": "in-progress",
+                "badge": "grey"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/ponjika",
+            "project": "ponjika",
+            "info": "Tiny bengali ponjika based on Gregorian date",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/retry",
+            "project": "retry",
+            "info": "Simple and easy retry mechanism package for Go",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/statyou",
+            "project": "statyou",
+            "info": "Mini twitter clone",
+            "status": {
+                "text": "beta-released",
+                "badge": "lime"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/gohttp",
+            "project": "gohttp",
+            "info": "HTTP client for Go",
+            "status": {
+                "text": "beta",
+                "badge": "grey"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/gitpull-me",
+            "project": "gitpull-me",
+            "info": "Github hook experiment with Golang",
+            "status": {
+                "text": "beta",
+                "badge": "grey"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/doc-reader",
+            "project": "doc-reader",
+            "info": "A minimal app to convert and share API Blueprint Doc",
+            "status": {
+                "text": "in-progress",
+                "badge": "grey"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/jonaki",
+            "project": "jonaki",
+            "info": "Simple markdown blog in node + express",
+            "status": {
+                "text": "beta-release",
+                "badge": "lime"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/iced-node-docker-starter",
+            "project": "iced-node-docker-starter",
+            "info": "starter node application pack",
+            "status": {
+                "text": "beta-release",
+                "badge": "lime"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/ticket-center",
+            "project": "ticket-center",
+            "info": "Online Support Ticket Center",
+            "status": {
+                "text": "in-progress",
+                "badge": "grey" 
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/bitbook-codewarrior",
+            "project": "bitbook-codewarrior",
+            "info": "Mini facebook clone",
+            "status": {
+                "text": "released",
+                "badge": "green" 
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/slider-game",
+            "project": "slider-game",
+            "info": "slider puzzle game in js",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/doctors-community",
+            "project": "doctors-community",
+            "info": "therapjavafest project - doctors-community",
+            "status": {
+                "text": "beta-released",
+                "badge": "lime"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/manifestgen",
+            "project": "manifestgen",
+            "info": "Manifest Generator for Firefox OS Apps",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/avro-pad",
+            "project": "avro-pad",
+            "info": "Slightly modified version of AvroPad",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/voice-espeak",
+            "project": "voice-espeak",
+            "info": "Voice - helper header file for eSpeak in C++",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        },
+        {
+            "url": "https://github.com/leninhasda/uhunt-api",
+            "project": "uhunt-api",
+            "info": "mini tool to retrieve UVA users info using api from uhunt.felix-halim.net",
+            "status": {
+                "text": "released",
+                "badge": "green"
+            }
+        }
     ]
 }
