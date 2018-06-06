@@ -7,7 +7,7 @@
 <section style="padding-top: 50px" class="valign-wrapper projects-action">
     <div class="container valign">
         <div class="row">
-            <div class="col s12 m4" ng-repeat="project in projects">
+            <div class="col s12 m3" ng-repeat="project in projects">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-green">
                         <a href="" ng-click="showModal(project)">
@@ -18,6 +18,45 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section style="" class="jumbotron jumbo-heading">
+    <div class="container center">
+        <h2 class="grey-text">Open Source</h2>
+    </div>
+</section>
+
+<section class="open-source" style="padding: 30px 0 50px;">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <table class="highlight">
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Info</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="os in openSource">
+                            <td>
+                                <a href="{{os.url}}">{{os.project}}</a>
+                            </td>
+                            <td>
+                                <a href="{{os.url}}">{{os.info}}</a>
+                            </td>
+                            <td>
+                                <span class="badge white-text {{os.status.badge}}">{{os.status.text}}</span>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
     </div>
 </section>
 
